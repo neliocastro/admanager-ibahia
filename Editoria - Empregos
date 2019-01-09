@@ -34,6 +34,7 @@ if (navigator.userAgent.indexOf('Marfeel') >= 0) {
     googletag.defineSlot('/8437410/iBahia-mob-noticias_empregos-banner-320x100-01', ['fluid', [320, 50], [320, 100]], 'div-gpt-ad-1528313686293-0').addService(googletag.pubads());
     googletag.defineSlot('/8437410/iBahia-mob-noticias_empregos-square-336x280-01', ['fluid', [300, 250], [336, 280], [320, 100]], 'div-gpt-ad-1528313686293-1').addService(googletag.pubads());
     googletag.defineSlot('/8437410/iBahia-mob-noticias_empregos-square-336x280-02', ['fluid', [300, 250], [336, 280], [320, 100]], 'div-gpt-ad-1528313686293-2').addService(googletag.pubads());
+    googletag.defineSlot('/8437410/iBahia-mob-ros-outofpage-1x1', [1, 1], 'div-gpt-ad-1547055351609-0').addService(googletag.pubads());
 }
 
 try{
