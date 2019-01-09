@@ -1,0 +1,55 @@
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<!-- Start Tag Segmentation TailTarget -->
+<script type="text/javascript">
+var _ttprofiles = _ttprofiles || [];
+_ttprofiles.push(['_setAccount', 'TT-10946-0']);
+_ttprofiles.push(['_enableServices']);
+document.write("<scr" + "ipt src='" + ("https:" == document.location.protocol ? "https:" : "http:") + "//d.tailtarget.com/profiles.js'></scr" + "ipt>");
+</script>
+<!-- End Tag Segmentation TailTarget -->
+
+<script>
+  googletag.cmd.push(function() {
+
+    //desktop
+    googletag.defineSlot('/8437410/iBahia-desk-ros-outlimit-800x600', [800, 600], 'div-gpt-ad-1527691418159-0').addService(googletag.pubads());
+    googletag.defineSlot('/8437410/iBahia-desk-ros-outofpage-1x1', [1, 1], 'div-gpt-ad-1527691418159-1').addService(googletag.pubads());
+    googletag.defineSlot('/8437410/ibahia-desk-noticias_empregos-half-300x600-01', [300, 600], 'div-gpt-ad-1527691418159-2').addService(googletag.pubads());
+    googletag.defineSlot('/8437410/ibahia-desk-noticias_empregos-hiper-970x90-01', [[970, 90], [728, 90]], 'div-gpt-ad-1527691418159-3').addService(googletag.pubads());
+    googletag.defineSlot('/8437410/ibahia-desk-noticias_empregos-mega-620x250-01', [620, 250], 'div-gpt-ad-1527691418159-4').addService(googletag.pubads());
+    googletag.defineSlot('/8437410/ibahia-desk-noticias_empregos-square-300x250-01', [300, 250], 'div-gpt-ad-1527691418159-5').addService(googletag.pubads());
+    googletag.defineSlot('/8437410/ibahia-desk-noticias_empregos-vitrine-970x250-01', [970, 250], 'div-gpt-ad-1527691418159-6').addService(googletag.pubads());
+
+    //yahoo
+    googletag.defineSlot('/8437410/iBahia_listaNoticias_yahoo_native', [1, 1], 'div-gpt-ad-1500918732112-0').addService(googletag.pubads());
+    googletag.defineSlot('/8437410/iBahia_maisLidas_yahoo_native', [1, 1], 'div-gpt-ad-1500925782889-0').addService(googletag.pubads());
+
+    //mobile
+if (navigator.userAgent.indexOf('Marfeel') >= 0) {
+    googletag.defineSlot('/8437410/iBahia-mob-noticias_empregos-banner-320x100-01', ['fluid', [320, 50], [320, 100]], 'div-gpt-ad-1528313686293-0').addService(googletag.pubads());
+    googletag.defineSlot('/8437410/iBahia-mob-noticias_empregos-square-336x280-01', ['fluid', [300, 250], [336, 280], [320, 100]], 'div-gpt-ad-1528313686293-1').addService(googletag.pubads());
+    googletag.defineSlot('/8437410/iBahia-mob-noticias_empregos-square-336x280-02', ['fluid', [300, 250], [336, 280], [320, 100]], 'div-gpt-ad-1528313686293-2').addService(googletag.pubads());
+}
+
+try{
+googletag.pubads().setTargeting("age", _ttprofiles.getAge);
+googletag.pubads().setTargeting("equipment", _ttprofiles.getEquipment);
+googletag.pubads().setTargeting("customaudiences", _ttprofiles.getCustomAudience);
+googletag.pubads().setTargeting("gender", _ttprofiles.getGender);
+googletag.pubads().setTargeting("microsegments", _ttprofiles.getMicrosegments);
+googletag.pubads().setTargeting("profiles", _ttprofiles.getProfiles);
+googletag.pubads().setTargeting("socialclass", _ttprofiles.getSocialClass);
+googletag.pubads().setTargeting("subjects", _ttprofiles.getSubjects);
+googletag.pubads().setTargeting("team", _ttprofiles.getTeam);
+}catch(e) { console.log("tail" + e); } 
+
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
